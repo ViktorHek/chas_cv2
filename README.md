@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Skapa och publicera din portfolio
 
-## Getting Started
+I dagens uppgift ska vi öva på deployment med nextjs och vercel genom att ni ska få
+skapa er egen portfolio.
 
-First, run the development server:
+### Sätt upp projektet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+1. Öppna en terminal och gå med `cd` där du vill skapa projektet.
+2. Skriv `npx create-next-app portfolio`
+
+## Hur du klarar uppgiften
+
+1. Googla `developer portfolio figma` och välj den design du gillar bäst.
+2. Skapa alla sidor genom att skapa komponenter i mappen `pages`
+3. Publicera alla projekt som du vill visa upp med vercel.
+4. Publicera din portfolio med länkar till alla dina projekt.
+5. (Ej obligatoriskt) Köp ett domännamn och peka det till ditt ip-nummer på vercel.
+
+## Hur du lämnar in
+
+1. Skapa ett repo på github.
+2. Ladd up dina filer till github:
+
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <Adressen till ditt repo>
+git push -u origin main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Klicka på uppgiften i canvas och ange länken till ditt repo.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### :boom: Success!
 
-## Learn More
+Efter denna uppgift ska ni kunna publicera react-sajter med vercel.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
