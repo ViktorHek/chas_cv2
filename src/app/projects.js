@@ -45,7 +45,7 @@ export default function Projects() {
       <div className={styles.imagesContainer}>
         {doodles.map((el, index) => {
           return (
-            <div style={{ width: "120px" }}>
+            <div style={{ width: "120px" }} key={index + 1}>
               <div className={styles.buttonContainer}>
                 <a className={styles.button} href={`#popup${index + 1}`}>
                   <img src={el.img} alt="" className={styles.projectsImg} />

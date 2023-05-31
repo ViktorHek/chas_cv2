@@ -77,7 +77,7 @@ export default function Home() {
           relaterade till programmering. På fritiden tycker jag om att skapa spel och ikoner. Jag
           anser att kreativitet hjälper mig att göra snygga hemsidor där jag har alla rättigheter
           till animationerna. Jag har även en del hobby projekt. Mitt roligaste är att jag försöker
-          återskapa 'Pokemon Red'. Jag vill utmana mig själv genom att bygga ett spel utan spelmoror
+          återskapa "Pokemon Red". Jag vill utmana mig själv genom att bygga ett spel utan spelmoror
           som använder LocalStorage som lagringsutrymme.
         </p>
       </div>
