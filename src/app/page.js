@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Projects from "./projects";
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
